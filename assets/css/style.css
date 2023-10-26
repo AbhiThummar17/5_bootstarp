@@ -1,0 +1,158 @@
+:root{
+	--font-color-1: #000000;
+	--font-color: #ffffff;
+}	
+selecter{
+	color:black;
+	background-color:purple;
+}
+nav{
+	padding: 10px 45px;
+}
+nav .col-4 ul{
+	margin: 0;
+}	
+nav .col-8 a{
+	color: var(--font-color);
+}
+nav .col-4 ul li a{
+	width: 30px;
+    height: 30px;
+	line-height: 28px;
+	border-radius: 50%;
+	transition: all 1s;
+	box-sizing: border-box;
+}
+nav .col-4 ul li a:hover{
+	background-color: var(--font-color);
+}
+
+nav .col-4 ul li a:hover i{
+	color: var(--font-color-1);	
+}
+header .col-3 img{
+	height: 45px;
+}
+form button:hover{
+	background-color: white!important;
+	color: black!important;
+}
+form i{
+	font-size: 20px;
+	color: #805ef0;
+}
+nav ul li a:hover{
+	color: #805ef0!important;
+}
+.navbar {
+	border-bottom: 1px solid white;
+}
+.silder{
+	padding: 100px 0;
+}
+.silder h1{
+	font-size: 50px;
+}
+.silder p{
+	padding-right: 630px;
+}
+.img img{
+	width: 100%;
+}
+.limit h2{
+	font-size: 52px;
+}
+.limit .icon .a i{
+	font-size: 36px;
+} 
+.limit .icon .a h6{
+	font-size: 20px;
+	margin: 0;
+}
+.marquee marquee p{
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.connect{
+	background-image: url(../img/1-10.jpg);
+	background-size: cover;
+}
+.connect h2 , .devices .title h2 ,.play h2{
+	font-size: 52px;
+}
+.connect .box .icon i{
+	font-size: 80px;
+}
+.connect .box .content p{
+	font-size: 16px;
+}
+.devices{
+	background-image: url(../img/Background_img.jpg);
+}
+.devices .item img{
+	width: 70%;
+}
+.play .icon i{
+	font-size: 65px;
+}
+footer .b i{
+	font-size: 50px;
+} 
+footer {
+	background-image: url('../img/4-4.jpg');
+}
+footer ul li a:hover{
+	color: #805ef0!important;
+}
+.accordion .accordion-item , .accordion .accordion-header button{
+	background-color: black!important;
+	color: white!important;
+}
+.accordion-item{
+	border: none;
+}
+.overlay{
+	background-image: url('../img/3-9.jpg');
+	height: 580px;
+	position: relative;
+}
+.overlay .img img{
+	width: 80%;
+	height: 580px;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	object-fit: cover;
+}
+.overlay .img .box{
+	width: 80px;
+	height: 80px;
+	line-height: 85px;
+	background-size: cover;
+	position: absolute;
+	top: 60%;
+	left: 45%;
+}
+.overlay .img .box i{
+	font-size: 20px;
+}
+.process{
+	flex-direction:row-reverse;
+}
+.process img.d{
+	top: 23%;
+	left: 30%;
+	z-index: -1;
+	width: 40%;
+}
+.process img.e{
+	transform: translate(-50%, -10px) rotateY(180deg);
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	width: 40%;
+}
+.img2{
+	transform: translate(-30%, 1px) rotateY(180deg);
+}

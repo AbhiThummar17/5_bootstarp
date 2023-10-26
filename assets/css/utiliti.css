@@ -1,0 +1,24 @@
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.bg-primary{
+	background-color: #805ef0!important;
+}
+.text-primary{
+	color: #805ef0!important;
+}
+.bg-black{
+	background-color: black!important;
+}
+.text-black{
+	color: black!important;
+}
+.top{
+	top: 20%;
+}
+.p-6{
+	padding: 150px 0 50px 0;
+}
